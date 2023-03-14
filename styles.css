@@ -112,7 +112,7 @@ nav {
     background-color: lightblue;
     color: blue;
     padding: .3rem;
-    width: fit-content;  /* fit-content vale para que el color se ajuste no sea largo hasta el final */
+    width: fit-content;  /* fit-content vale para que el color se ajuste al elemento y no sea largo hasta el final */
     border-radius: 5% / 10%;
 
 }
@@ -128,4 +128,20 @@ nav {
     width: 2rem;
     background-color: pink;
     border-radius: 50%;
+}
+
+/******************** Footer ********************/
+
+footer {
+    background-color: lightgray;
+    border-top: 1px solid gray;
+}
+
+.footerMenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerMenu>div{
+    width: 100%;
 }
